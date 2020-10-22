@@ -1,0 +1,8 @@
+# VScode config
+.vscode/
+
+# SparkAR auto TypeScript config
+/scripts/tsconfig.json
+
+# windows
+Thumbs.db

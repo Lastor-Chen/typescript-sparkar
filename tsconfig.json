@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "Copy from scripts/tsconfig.json baseURL",
+    "typeRoots": [
+      "The same with baseURL" // Get SparkAR module's types
+    ],
+    "allowSyntheticDefaultImports": true, // Don't compile SparkAR's module
+    "target": "ES2019",
+    "module": "CommonJS", // Compile TypeScript "import" to CommonJS "require"
+    "outDir": "./scripts"
+  },
+  "include": [
+    "./src/*.ts",
+  ],
+  "exclude": [
+    "./scripts"
+  ],
+}
